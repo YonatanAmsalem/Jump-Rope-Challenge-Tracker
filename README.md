@@ -1,51 +1,54 @@
-# Jump-Rope-Challenge-Tracker
-✨ Project Title: Jump Rope Challenge Tracker 🏃‍♂️⏱️
-📋 Project Summary
-This interactive jump-counting system was built using Arduino Uno R3 to promote fun and healthy physical activity.
-It allows users to choose difficulty levels and track their jump count with real-time feedback and a timed challenge.
+# 🚀 Jump Counter with Level Selection – Arduino Uno R3
 
-🎯 Purpose: Encourage physical activity and set personal fitness goals
+## 📋 Project Summary
 
-💡 Solution: Automatically detect and count rope jumps per session
+This project is a **Smart Jump Rope Counter** built using Arduino Uno R3, designed to encourage physical activity in a fun and interactive way.
 
-🔔 Features: Tilt sensor, buzzer, dual LCD displays, level-based targets
+- 🧠 Users choose a difficulty level (1 to 5)
+- ⏱️ Each level has a specific jump goal and time duration
+- 🧾 Feedback is provided via LCD and LEDs
+- 🔔 Buzzer alerts when goal is reached
 
-🛠️ Tools: Used Timer1 interrupt and I2C communication for display & timing
+**The goal:** Promote fitness and consistency by tracking jumps with increasing difficulty.
 
-🧰 Components Used
-🧠 Arduino Uno R3
+---
 
-📟 16x2 I2C LCD Display (Main Display)
+## 🔧 Components Used
 
-⏲️ 16x2 I2C LCD Display (Timer)
+- Arduino Uno R3  
+- LCD I2C Display x2 (16x2)  
+- Keypad 4x4  
+- Tilt Sensor  
+- Green LED  
+- Buzzer  
+- Breadboard  
+- Jumper Wires  
 
-🎛️ Keypad 4x4
+---
 
-🔔 Active Buzzer
+## 🖼️ Circuit Diagram
 
-🟢 Green LED
+📌 The following image shows the full schematic of the jump counting circuit, including all components and connections:  
+*(insert image here)*
 
-🎯 Tilt Sensor (for jump detection)
+---
 
-🧵 Jumper Wires
+## 🎥 Demo Video
 
-🔌 Breadboard
+▶️ A demonstration of the system in action:  
+*(insert video link or upload here)*
 
-⚡ Resistors (for LEDs)
+---
 
-🖼️ Circuit Diagram
-The image below illustrates the full wiring of the components on a breadboard connected to Arduino Uno R3.
-🔧🧩📷 
+## ⚙️ How It Works
 
-🎬 Demonstration Video
-📽️ A short video showing a full run of the system, from level selection to jump detection and feedback.
-🏃‍♀️✅🟢 
+1. The user selects a level using the keypad (1–5)  
+2. Each level has a predefined jump goal and timer (1 min or 1:20 min)  
+3. Tilt sensor detects valid jump motions  
+4. LCD1 shows jumps; LCD2 shows countdown  
+5. When jump goal is reached – buzzer beeps and LED turns on  
+6. At the end, the user can continue, change level, or exit  
 
-⚙️ How It Works – Step by Step
-1️⃣ The user selects a difficulty level (1–5) using the keypad
-2️⃣ The main LCD displays the selected level and target jump count
-3️⃣ A tilt sensor detects each jump and updates the jump count
-4️⃣ Timer1 tracks time (1 min or 1:20 based on level) on LCD #2
-5️⃣ Once the target is reached, a buzzer beeps and a green LED lights up
-6️⃣ At the end, the user can repeat, change the level, or exit
+---
 
+🎉 This project combines fitness, electronics, and real-time feedback – all in one!  
