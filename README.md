@@ -28,8 +28,9 @@ This project is a **Smart Jump Rope Counter** built using Arduino Uno R3, design
 
 ## 🖼️ Circuit Diagram
 
-📌 The following image shows the full schematic of the jump counting circuit, including all components and connections:  
-*(insert image here)*
+📌 The following image shows the full schematic of the jump counting circuit, including all components and connections:
+
+![Circuit Diagram](circuit.png)
 
 ---
 
